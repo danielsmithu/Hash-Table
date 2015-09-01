@@ -1,3 +1,3 @@
-public interface Disenador{
+public interface Desarrollador{
 void nuevo_desarrollador();
 }
