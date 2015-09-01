@@ -1,3 +1,3 @@
 public interface Disenador{
-void organizar();
+void nuevo_desarrollador();
 }
