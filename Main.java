@@ -16,7 +16,19 @@ public class Main{
       Collection<Type> hash = new HashSet<Type>(c);
     }
     else if (implementacion == "2"){
-      System.out.println("Ud ha elegido la implementacon TreeSet")
+      System.out.println("Ud ha elegido la implementacon TreeSet");
+      Scanner cantidad = new Scanner(System.in);
+      int x = cantidad.nextLine();
+      System.out.println("Ingrese la cantidad de desarrolladores que quiere anadir");
+      while(x =! 0)
+        Scanner nombre = new Scanner(System.in);
+        System.out.println("Ingrese el nombre del desarrollador");
+        String nombreDes = nombre.nextLines();
+        System.out.println("Ingrese la cantidad de cualidad del Desarrollador");
+        
+      }
+        
+      }
       
     }
   }
