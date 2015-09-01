@@ -1,5 +1,5 @@
 public class Desarrollador_Gen{
-  public Desarrollador getType(String type){
+  public Desarrollador getType(String type, String nombre){
     if(type == null){
          return null;
       }		
