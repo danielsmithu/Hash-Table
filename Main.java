@@ -241,7 +241,7 @@ public class Main{
     System.out.println("\nLos desarrolladores Java es un subconjunto de desarrolladores Web?");
     if(nombre_Implementacion.equals("HashSet")){
     	int comparacion = 0;
-    	if (!nombres_Programadores_Web_Hash.containsAll(nombres_Programadores_Java_Hash)){
+    	if (nombres_Programadores_Web_Hash.containsAll(nombres_Programadores_Java_Hash)){
     		comparacion = nombres_Programadores_Java_Hash.size();
     	}
     	if(comparacion == nombres_Programadores_Java_Hash.size()){
