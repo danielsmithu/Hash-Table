@@ -14,8 +14,8 @@ public class main_set{
     boolean isProgramador_Web;
     boolean isProgramador_Cel;
     String programador_Lectura;
-	  HashSet<String> nombres_Programadores_Java_Hash = new HashSet<>();
-    HashSet<String> nombres_Programadores_Web_Hash HashSet<>();
+    HashSet<String> nombres_Programadores_Java_Hash = new HashSet<>();
+    HashSet<String> nombres_Programadores_Web_Hash = new HashSet<>();
     HashSet<String> nombres_Programadores_Cel_Hash = new HashSet<>();
     HashSet<String> union_Java_Web_Cel_Hash = new HashSet<>();
     HashSet<String> union_Java_Hash = new HashSet<>();
