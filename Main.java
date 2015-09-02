@@ -355,6 +355,14 @@ public class Main{
     }
     
     System.out.println("\nLa lista ordenada:");
-    
+    if(nombre_Implementacion.equals("HashSet")){
+      System.out.println(mayor_Hash);
+    }
+    else if(nombre_Implementacion.equals("TreeSet")){
+      System.out.println(mayor_Tree);
+    }
+    else if(nombre_Implementacion.equals("LinkedHashSet")){
+      System.out.println(mayor_Lk);
+    }
   }
 }
