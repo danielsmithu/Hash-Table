@@ -239,14 +239,10 @@ public class Main{
     }
     
     System.out.println("\nLos desarrolladores Java es un subconjunto de desarrolladores Web?");
-    if(nombre_Implementacion.equals("HashSet")){
+    if(nombre_Implementacion.equals("HashSet"){
     	int comparacion = 0;
-    	for(int a=0; a<nombres_Programadores_Web_Hash.size(); a++){
-    		for(int i=0;i<nombres_Programadores_Java_Hash.size();i++){
-    			if(nombres_Programadores_Web_Hash.contains(nombres_Programadores_Java_Hash[i])){
-    				comparacion = comparacion+1;	
-    			}
-    	}
+    	if (!nombres_Programadores_Web_Hash.containsAll(nombres_Programadores_Java_Hash)){
+    		comparacion = nombres_Programadores_Java_Hash.size();
     	}
     	if(comparacion == nombres_Programadores_Java_Hash.size()){
     		System.out.println("Todos los desarrolladores java son desarrolladores web, si es un subconjunto");
@@ -255,7 +251,7 @@ public class Main{
     		System.out.println("No todos los desarrolladores java son desarrolladores web, no es un subconjunto");
     	}
     }
-    if(nombre_Implementacion.equals("TreeSet")){
+    if(nombre_Implementacion.equals("TreeSet"){
     	
     }
     
