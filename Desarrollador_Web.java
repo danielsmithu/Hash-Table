@@ -1,4 +1,4 @@
-public class Desarrolador_Web implements Desarrollador{
+public class Desarrollador_Web implements Desarrollador{
   @Override
   public String nuevo_desarrollador(String nombre){
     String nombre_Web = nombre;
