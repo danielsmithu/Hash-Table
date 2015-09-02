@@ -1,3 +1,3 @@
 public interface Desarrollador{
-void nuevo_desarrollador();
+  void nuevo_desarrollador();
 }
