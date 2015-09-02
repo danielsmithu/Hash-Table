@@ -1,5 +1,7 @@
 public class Desarrolador_Web implements Desarrollador{
-  public void nuevo_desarrollador(String nombre){
-    this.nombre = nombre
+  @Override
+  public String nuevo_desarrollador(String nombre){
+    String nombre_Web = nombre;
+    return nombre_Web;
   }
 }
