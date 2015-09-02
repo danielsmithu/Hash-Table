@@ -1,3 +1,13 @@
+/*
+Daniel Smith 14089
+Ricardo Galindo 14225
+Miguel Godoy Garin 14425
+Algoritmos y Estructura de Datos
+01-09-2015
+Hoja de Trabajo 6
+*/
+
+
 import java.util.Scanner;
 import java.util.*;
 import java.util.stream.*;
